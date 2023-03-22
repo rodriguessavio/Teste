@@ -16,7 +16,6 @@
         // Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código;
         var sequencia = [0, 1], achou = false;
         var numb = prompt(parseFloat("Informe o número a ser analisado: "));
-        console.log(numb);
         for (let i = 0; i <= 30 ; i++) {
             sequencia.push(sequencia[sequencia.length -1] + sequencia[sequencia.length - 2])
             if (sequencia[sequencia.length -1] + sequencia[sequencia.length - 2] == numb){
