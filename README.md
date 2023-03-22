@@ -6,7 +6,7 @@
 IMPORTANTE:
 Esse número pode ser informado através de qualquer entrada de sua preferência ou pode ser previamente definido no código*
 
-```     
+```javascript     
         var sequencia = [0, 1], achou = false;
         
         var numb = parseFloat(prompt("Informe o número a ser analisado: "));
@@ -34,7 +34,7 @@ IMPORTANTE:
 a) Usar o json ou xml disponível como fonte dos dados do faturamento mensal;
 b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;*
 
-```     
+```javascript    
         var data = [{"dia": 1,"valor": 22174.1664},
         {"dia": 2,"valor": 24537.6698},
         {"dia": 3,"valor": 26139.6134},
@@ -89,7 +89,7 @@ b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Est
 
 ###### Faturamento Mensal
 
-```     
+```javascript 
 const sp = 67836.43;
 const rj = 36678.66;
 const mg = 29229.88;
@@ -114,7 +114,7 @@ IMPORTANTE:
 a) Essa string pode ser informada através de qualquer entrada de sua preferência ou pode ser previamente definida no código;
 b) Evite usar funções prontas, como, por exemplo, reverse;*
 
-```
+```Java
 import java.util.Scanner;
 
 public class Palavra{
